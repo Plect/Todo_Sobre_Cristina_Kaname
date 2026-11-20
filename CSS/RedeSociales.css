@@ -1,0 +1,103 @@
+.redes-sociales {
+    display: flex;
+    flex-flow: column;
+}
+
+.shorts, .videos, .chats, .comunidad {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 5% 5% 0 5%;
+}
+
+.comunidad{
+    justify-content: center;
+}
+
+#tiktok, #reels, #shorts, #twitch, #youtube, #threads, #twitter {
+    border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#tiktok{
+    background: linear-gradient(136deg, #25F4EE 0%, #27f2ed 1.67%, #2dede9 3.33%, #36e4e2 5%, #44d8d8 6.67%, #55c8cc 8.33%, #6ab4bd 10%, #849dab 11.67%, #9f8398 13.33%, #b96c86 15%, #ce5877 16.67%, #df486b 18.33%, #ed3c61 20%, #f6335a 21.67%, #fc2e56 23.33%, #FE2C55 25%, #fc2c54 27.67%, #f52a52 30.33%, #ea284e 33%, #da2649 35.67%, #c62242 38.33%, #ad1e3a 41%, #8f1930 43.67%, #6f1325 46.33%, #510e1b 49%, #380a13 51.67%, #24060c 54.33%, #140407 57%, #090203 59.67%, #020001 62.33%, #000000 65%, #020202 67.33%, #090909 69.67%, #141414 72%, #242424 74.33%, #393939 76.67%, #525252 79%, #6f6f6f 81.33%, #909090 83.67%, #adadad 86%, #c6c6c6 88.33%, #dbdbdb 90.67%, #ebebeb 93%, #f6f6f6 95.33%, #fdfdfd 97.67%, #FFFFFF 100%);
+    color: white;
+    padding: 15%;
+}
+
+#reels{
+    background: linear-gradient(136deg, #F09433,#E6683C,#DC2743,#CC2366,#BC1888);
+    color: white;
+    padding: 15%;
+}
+
+#shorts{
+    background: linear-gradient( 136deg, #ff0000 0%, #dd0000 40%, #000000 100%);
+    color: white;
+    padding: 15%;
+}
+
+#twitch{
+    background: linear-gradient(136deg, #9146FF 0%, #772CE8 100%);
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 300px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    margin-right: 1%;
+
+}
+
+#youtube{
+    background: linear-gradient(136deg, #ff0000 0%, #dd0000 60%, #000000 100%);
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 300px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    margin-left: 1%;
+}
+
+#threads {
+    background: linear-gradient(136deg, #8A3FFC 0%, #FF2E93 50%, #FF7A00 100% );
+    color: white;
+    padding-left: 21%;
+    padding-right: 21%;
+    height: 150px;
+    align-content: center;
+}
+
+#whatsapp{
+    background: green;
+    color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 150px;
+    width: 100px;
+    align-content: center;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#twitter{
+    background: linear-gradient(136deg, #1DA1F2 0%, #0D8ECF 100%);
+    color: white;
+    padding-left: 21%;
+    padding-right: 21%;
+    height: 150px;
+    align-content: center;
+}
+
+#discord{
+    background: linear-gradient(136deg, #5865F2 0%, #7289DA 50%, #99AAB5 100%);
+    color: white;
+    width: 75%;
+    height: 80px;
+    align-content: center;
+    text-align: center;
+    border-radius: 50px;
+}

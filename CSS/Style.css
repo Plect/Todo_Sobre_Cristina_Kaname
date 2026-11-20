@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    background-image: url(../IMG/Alfrombra\ rosa.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+.header-content{
+    
+    background-image: url(../IMG/Banner.png);
+    background-size: cover;
+    height: auto;
+}
+
+#titulo{
+    text-align: center;
+}
